@@ -1,5 +1,4 @@
-<mxfile host="65bd71144e" modified="2020-11-29T06:38:35.444Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" version="13.6.5" etag="y_d894su_bnf2f7tNegi" pages="4">
-    <diagram id="lV7E5DMv0JZIzQYfxMvo" name="ページ1">
+　　　<diagram id="lV7E5DMv0JZIzQYfxMvo" name="ページ1">
         <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
@@ -119,7 +118,7 @@
                 <mxCell id="QP8tOrODY9HtXsI_iVDI-2" value="＜ER図＞" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QP8tOrODY9HtXsI_iVDI-1" vertex="1">
                     <mxGeometry x="80" y="680" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="QP8tOrODY9HtXsI_iVDI-3" value="Usersテーブル" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="QP8tOrODY9HtXsI_iVDI-1" vertex="1">
+
                     <mxGeometry x="80" y="720" width="160" height="116" as="geometry"/>
                 </mxCell>
                 <mxCell id="QP8tOrODY9HtXsI_iVDI-4" value="email" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="QP8tOrODY9HtXsI_iVDI-3" vertex="1">
@@ -131,26 +130,7 @@
                 <mxCell id="QP8tOrODY9HtXsI_iVDI-6" value="username" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="QP8tOrODY9HtXsI_iVDI-3" vertex="1">
                     <mxGeometry y="86" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="ExHM6AXdacPst1lyj-ky-4" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="QP8tOrODY9HtXsI_iVDI-1">
-                    <mxGeometry x="320" y="720" width="160" height="116" as="geometry"/>
-                </mxCell>
-                <mxCell id="ExHM6AXdacPst1lyj-ky-5" value="Item 1" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ExHM6AXdacPst1lyj-ky-4">
-                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="ExHM6AXdacPst1lyj-ky-6" value="Item 2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ExHM6AXdacPst1lyj-ky-4">
-                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="ExHM6AXdacPst1lyj-ky-7" value="Item 3" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ExHM6AXdacPst1lyj-ky-4">
-                    <mxGeometry y="86" width="160" height="30" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram id="PF2hrUGokgTUTrNreDyM" name="ページ4">
-        <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="AklAAb05HyawQQXEgQAd-0"/>
-                <mxCell id="AklAAb05HyawQQXEgQAd-1" parent="AklAAb05HyawQQXEgQAd-0"/>
+
             </root>
         </mxGraphModel>
     </diagram>
