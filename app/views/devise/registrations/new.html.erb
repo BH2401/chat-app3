@@ -40,6 +40,15 @@
             <%= f.password_field :password_confirmation, autocomplete: "off"%>
           </div>
         </div>
+        <div class='field'>
+          <div class='field-label'>
+            <%= f.label :admin %>
+            <i>(運営者以外、入力の必要はありません)</i>
+          </div>
+          <div class='field-input'>
+            <%= f.password_field :admin, autocomplete: "off"%>
+          </div>
+        </div>
         <div class='actions'>
           <%= f.submit "Create Account", class: 'btn'%>
         </div>
