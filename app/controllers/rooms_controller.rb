@@ -1,7 +1,7 @@
 class RoomsController < ApplicationController
 
   def index
-    #@room = Room.includes(:user)
+    #@users = @room.includes(:user)
   end
 
 
