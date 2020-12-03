@@ -8,6 +8,7 @@ class RoomsController < ApplicationController
 
 
   def new
+    redirect_to root_path if current_user.admin != 'kk22'
     @room = Room.new
   end
 
@@ -21,6 +22,7 @@ class RoomsController < ApplicationController
   end
 
   def edit
+    redirect_to root_path if current_user.admin != 'kk22'
   end
 
   def update
