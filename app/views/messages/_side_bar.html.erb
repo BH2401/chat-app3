@@ -17,7 +17,8 @@
       <div class="room-name">
         <%= link_to room.name, room_messages_path(room) %><%# <a href="#"><%= room.name %><%#</a> %>
         <%# <%= link_to "グラン", room_messages_path(room) %> 
-        <%= link_to "ルームを編集する", edit_room_path(room), method: :get %>
+        <%= link_to "編集", edit_room_path(room), method: :get %>
+        <%= link_to "削除", room_path(room), method: :delete %>
       </div>
     </div>
   <% end %>
