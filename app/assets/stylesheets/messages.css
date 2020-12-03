@@ -28,7 +28,7 @@
 }
 
 .create-room a {
-  border: 1px solid lightblue;
+  border: 1px;
   padding: 14px;
   color: deepskyblue
 }
