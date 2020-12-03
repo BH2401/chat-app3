@@ -3,10 +3,8 @@
     <%= link_to current_user.name, edit_user_path(current_user)%>
   </div>
   <div class="create-room">
-    <% if user_signed_in?%>
-      <%if current_user.admin == 'kk22' %>
+    <% if user_signed_in? && current_user.admin == 'kk22' %>
           <%= link_to "ルームを作成する", new_room_path %><%#     <a href="#">ルームを作成する</a> %>
-      <% end %>
     <% end %>
   </div>
 </div>
@@ -17,7 +15,21 @@
       <div class="room-name">
         <%= link_to room.name, room_messages_path(room) %><%# <a href="#"><%= room.name %><%#</a> %>
         <%# <%= link_to "グラン", room_messages_path(room) %> 
-        <%= link_to "ルームを編集する", edit_room_path(room), method: :get %>
+          <div class="create-room">
+            <% if user_signed_in? && current_user.admin == 'kk22' %>
+              <div class="more">
+                <span><%= image_tag 'arrow_top.png' %></span>
+                <ul class="more_list">
+                  <li>
+                  <%= link_to "編集", edit_room_path(room), method: :get %>
+                  </li>
+                  <li>
+                  <%= link_to "削除", room_path(room), method: :delete %>
+                  </li>
+                </ul>
+              </div>
+            <% end%>
+          </div>
       </div>
     </div>
   <% end %>
