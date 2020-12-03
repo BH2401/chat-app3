@@ -2,7 +2,7 @@ class MessagesController < ApplicationController
   def index
     @message = Message.new
     @room = Room.find(params[:room_id])
-    @messages = @room.messages.includes(:user)  #チャットルームに紐付いている全てのメッセージ（@room.messages）を@messagesと定義します。
+    @messages = @room.messages.includes(:user).order("created_at DESC")  #チャットルームに紐付いている全てのメッセージ（@room.messages）を@messagesと定義します。
     #これを改変して@users = @room.includes(:user)
     #チャットルームに紐付いている全てのメッセージ（@room.messages）を@messagesと定義します。
   end
