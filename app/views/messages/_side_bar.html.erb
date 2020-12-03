@@ -17,8 +17,17 @@
         <%# <%= link_to "グラン", room_messages_path(room) %> 
           <div class="create-room">
             <% if user_signed_in? && current_user.admin == 'kk22' %>
-              <%= link_to "編集", edit_room_path(room), method: :get %>
-              <%= link_to "削除", room_path(room), method: :delete %>
+              <div class="more">
+                <span><%= image_tag 'arrow_top.png' %></span>
+                <ul class="more_list">
+                  <li>
+                  <%= link_to "編集", edit_room_path(room), method: :get %>
+                  </li>
+                  <li>
+                  <%= link_to "削除", room_path(room), method: :delete %>
+                  </li>
+                </ul>
+              </div>
             <% end%>
           </div>
       </div>
