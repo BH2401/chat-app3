@@ -3,6 +3,7 @@ class RoomsController < ApplicationController
 
   def index
     #@users = @room.includes(:user)
+    #@rooms = Room.all
   end
 
 
@@ -16,6 +17,19 @@ class RoomsController < ApplicationController
       redirect_to root_path
     else
       render :new
+    end
+  end
+
+  def edit
+    @room = Room.find(params[:id])
+  end
+
+  def update
+    @room = Room.find(params[:id])
+    if @room.update(room_params)
+      redirect_to root_path
+    else
+      render :edit
     end
   end
 
