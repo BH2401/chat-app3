@@ -17,9 +17,10 @@
       </div>
       <div class='chat-room-form__field--right'>
         <%= f.label :user %><br />
-          <%= collection_check_boxes(:room, :user_ids, User.all, :id, :name) do |b| %>
+          <%= collection_check_boxes(:room, :user_ids, User.where.not(id: current_user.id, name: current_user.name), :id, :name) do |b| %>
             <%= b.label { b.check_box + b.text } %>
           <% end %>
+          <input name="room[user_ids][]" type="hidden" value=<%= current_user.id %>>
       </div>
     </div>
     <div class='chat-room-form__field'>
